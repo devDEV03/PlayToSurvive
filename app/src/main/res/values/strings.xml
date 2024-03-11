@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">F1game</string>
+    <string name="albon">Alex Albon</string>
+    <string name="max">Max Verstrappen</string>
+    <string name="hamilton">Lewis Hamilton</string>
+    <string name="piastri">Oscar Piastri</string>
+    <string name="norris">Lando Norris</string>
+    <string name="checo">Sergio Perez</string>
+    <string name="russell">George Russell</string>
+    <string name="alonso">Fernando Alonso</string>
+    <string name="stroll">Lance Stroll</string>
+    <string name="leclerc">Charles Leclerc</string>
+    <string name="sainz">Carlos Sainz</string>
+    <string name="sargeant">Logan Sargeant</string>
+    <string name="zhou">Zhou Guanyu</string>
+    <string name="bottas">Valteri Bottas</string>
+    <string name="yuki">Yuki Tsunoda</string>
+    <string name="ricciardo">Daniel Ricciardo</string>
+    <string name="gasly">Pierre Gasly</string>
+    <string name="ocon">Esteban Ocon</string>
+    <string name="vettel">Sebastian Vettel</string>
+    <string name="schumacher">Michael Schumacher</string>
+    <string name="kimi">Kimi Raikkonen</string>
+    <string name="bearman">Oliver Bearman</string>
+    <string name="hulkenberg">Nico Hulkenberg</string>
+    <string name="magnussen">Kevin Magnussen</string>
+    <string name="latifi">Nicholas Latifi</string>
+    <string name="nico">Nico Rosberg</string>
+    <string name="massa">Felipe Massa</string>
+
+    <string name="albon1">Alex Albon</string>
+    <string name="max1">Max Verstrappen</string>
+    <string name="hamilton1">Lewis Hamilton</string>
+    <string name="piastri1">Oscar Piastri</string>
+    <string name="norris1">Lando Norris</string>
+    <string name="checo1">Sergio Perez</string>
+    <string name="russell1">George Russell</string>
+    <string name="alonso1">Fernando Alonso</string>
+    <string name="stroll1">Lance Stroll</string>
+    <string name="leclerc1">Charles Leclerc</string>
+    <string name="sainz1">Carlos Sainz</string>
+    <string name="sargeant1">Logan Sargeant</string>
+    <string name="zhou1">Zhou Guanyu</string>
+    <string name="bottas1">Valteri Bottas</string>
+    <string name="yuki1">Yuki Tsunoda</string>
+    <string name="ricciardo1">Daniel Ricciardo</string>
+    <string name="gasly1">Pierre Gasly</string>
+    <string name="ocon1">Esteban Ocon</string>
+    <string name="vettel1">Sebastian Vettel</string>
+    <string name="schumacher1">Michael Schumacher</string>
+    <string name="kimi1">Kimi Raikkonen</string>
+    <string name="bearman1">Oliver Bearman</string>
+    <string name="hulkenberg1">Nico Hulkenberg</string>
+    <string name="magnussen1">Kevin Magnussen</string>
+    <string name="latifi1">Nicholas Latifi</string>
+    <string name="nico1">Nico Rosberg</string>
+    <string name="massa1">Felipe Massa</string>
+
+    <string name="wrong_ans">Wrong Answer!</string>
+    <string name="enter_guess">Enter your guess</string>
+    <string name="word_count">%d / 10</string>
+    <string name="score"> Score : %d </string>
+    <string name="submit">SUBMIT</string>
+    <string name="skip">SKIP</string>
+    <string name="hint">HINT</string>
+
+</resources>
