@@ -63,5 +63,9 @@
     <string name="submit">SUBMIT</string>
     <string name="skip">SKIP</string>
     <string name="hint">HINT</string>
-
+    <string name="guidelines">GUIDELINES</string>
+    <string name="play_again">"Play Again!"</string>
+    <string name="end">End Game!</string>
+    <string name ="alertMessage">You have scored %d points</string>
+    <string name="congratulations">"Congratulations"</string>
 </resources>
