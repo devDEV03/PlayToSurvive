@@ -4,6 +4,7 @@ import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 import com.example.f1game.R
@@ -15,6 +16,10 @@ val Font1 = FontFamily(
 
 val kanitFont = FontFamily(
     Font(R.font.kanitmedium)
+)
+
+val kodeMono = FontFamily(
+    Font(R.font.kodemono)
 )
 // Set of Material typography styles to start with
 val Typography = Typography(
@@ -38,6 +43,13 @@ val Typography = Typography(
         fontSize = 22.sp,
         lineHeight = 24.sp,
         letterSpacing = 0.5.sp
+    ),
+    headlineLarge = TextStyle(
+        fontFamily = kodeMono,
+        fontWeight = FontWeight.Bold,
+        fontSize = 23.sp,
+        lineHeight = 26.sp,
+        letterSpacing = 0.2.sp
     )
     /* Other default text styles to override
     titleLarge = TextStyle(

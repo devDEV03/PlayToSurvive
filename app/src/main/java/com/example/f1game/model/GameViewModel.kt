@@ -97,6 +97,14 @@ class GameViewModel : ViewModel() {
         updateGameState(_uistate.value.score)
         userGuessing("")
     }
+
+    fun guidelineWindowChange(){
+        _uistate.update {
+            currentState -> currentState.copy(
+                guidelineShow = !(_uistate.value.guidelineShow)
+            )
+        }
+    }
     init {
         resetGame()
     }

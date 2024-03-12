@@ -9,5 +9,6 @@ data class GameUiState(
     val isGuessedWrong : Boolean = false,
     val isGameOver : Boolean = false,
     val wordCount : Int = 1,
-    val giveHint : Boolean = false
+    val giveHint : Boolean = false,
+    val guidelineShow : Boolean = false
 )
