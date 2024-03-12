@@ -158,7 +158,7 @@ fun GameScreen(gameViewModel : GameViewModel = viewModel()){
             Spacer(modifier = Modifier.height(20.dp))
             if(gameuistate.giveHint){
                 Text(
-                    text = stringResource(id = gameuistate.driver1.hintId),
+                    text = stringResource(R.string.for_hint, stringResource(id = gameuistate.driver1.hintId)),
                     style = MaterialTheme.typography.displaySmall
                 )
             }
