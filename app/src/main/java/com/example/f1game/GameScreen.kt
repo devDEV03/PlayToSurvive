@@ -286,7 +286,7 @@ fun GameBar(
                 modifier = Modifier.padding(8.dp)
             )
         }
-        Spacer(modifier = Modifier.width(220.dp))
+        Spacer(modifier = Modifier.width(210.dp))
         Card (
             modifier = Modifier
                 .clip(MaterialTheme.shapes.medium)

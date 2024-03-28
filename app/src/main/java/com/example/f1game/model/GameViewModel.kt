@@ -9,6 +9,7 @@ import androidx.lifecycle.ViewModel
 import com.example.f1game.GameUiState
 import com.example.f1game.data.MAX_NO_OF_WORDS
 import com.example.f1game.data.POINTS_FOR_ANSWER
+import com.example.f1game.data.POINTS_WITH_HINT
 import com.example.f1game.data.drivers
 import com.example.f1game.data.listOfDrivers
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -44,8 +45,15 @@ class GameViewModel : ViewModel() {
 
     public fun checkUserGuess(){
         if(userGuess.lowercase().equals(currentWord)){
-            val updatedScore = _uistate.value.score.plus(POINTS_FOR_ANSWER)
-            updateGameState(updatedScore)
+            if(_uistate.value.giveHint){
+                val updatedScore = _uistate.value.score.plus(POINTS_WITH_HINT)
+                updateGameState(updatedScore)
+            }
+            else{
+                val updatedScore = _uistate.value.score.plus(POINTS_FOR_ANSWER)
+                updateGameState(updatedScore)
+            }
+
         }
         else{
             _uistate.update {

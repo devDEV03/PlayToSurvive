@@ -7,6 +7,7 @@ import com.example.f1game.R
 
 val MAX_NO_OF_WORDS = 10
 val POINTS_FOR_ANSWER = 20
+val POINTS_WITH_HINT =10
 
 data class drivers(
     @DrawableRes val imageId : Int,
